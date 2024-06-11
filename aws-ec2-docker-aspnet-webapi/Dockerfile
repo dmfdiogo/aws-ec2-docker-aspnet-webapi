@@ -14,4 +14,4 @@ COPY --from=build /app/out ./
 
 EXPOSE 80
 
-ENTRYPOINT ["dotnet", "aws-ec2-docker-aspnet-webapi"]
+ENTRYPOINT ["dotnet", "aws-ec2-docker-aspnet-webapi.dll"]
